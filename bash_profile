@@ -12,11 +12,8 @@ PATH=$PATH:$HOME/bin
 # for git status
 export PATH
 
-<<<<<<< HEAD
 #test
 
 #test2
 #test3
-=======
 #add in master
->>>>>>> master
