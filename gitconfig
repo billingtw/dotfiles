@@ -1,0 +1,15 @@
+[user]
+	name = billing
+	email = billing.tw@gmail.com
+[push]
+	default = current
+[diff]
+	algorithm = patience
+[alias]
+	st = status
+	br = branch
+[core]
+	editor = vim
+[color]
+	ui = true
+	status = always

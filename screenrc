@@ -1,0 +1,28 @@
+bindkey ^Aa other
+
+hardstatus alwayslastline " %-Lw%{= Bw}%n%f %t%{-}%+Lw %=| %0c:%s "
+caption always "%{dk}%{+b K}> %{W}%n %t %{K}<%{W}%=%{+b K}load{%l} %{C}$USER@%{W}%H %{db}%{W}  %0C %A  "
+#defbce "on"
+#defc1 "off"
+defscrollback 2000
+#defutf8 on
+escape ^A^A
+#termcap xterm
+#termcapinfo xterm "Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm"
+vbell off
+
+utf8 on
+defencoding UTF-8
+encoding UTF-8 UTF-8
+
+#default connect when start screen
+screen -t mail2000 0 ssh -p 10022 billing@140.113.22.58
+screen -t mailgete 1 ssh -p 10022 admin@140.113.22.36
+screen -t calculus 2 ssh -p 10022 billing@140.113.22.40
+screen -t dns 3
+screen -t www 4 ssh -p 10022 billing@140.113.22.41
+screen -t jupiter 5 ssh -p 10022 billing@140.113.22.57
+screen -t clw 6 ssh billing@clw00.math.nctu.edu.tw
+screen -t itl 7 ssh -p 2280 andrea@140.113.43.8
+screen -t mail 8 ssh -p 10022 billing@140.113.22.58
+screen -t newton 9
