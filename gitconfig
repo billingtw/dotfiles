@@ -8,6 +8,7 @@
 [alias]
 	st = status
 	br = branch
+    cm = commit
 [core]
 	editor = vim
 [color]
