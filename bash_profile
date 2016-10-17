@@ -11,3 +11,5 @@ PATH=$PATH:$HOME/bin
 
 # for git status
 export PATH
+
+#add in master
