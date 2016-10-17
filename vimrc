@@ -9,14 +9,20 @@ set cursorline
 set t_Co=256
 set expandtab
 set hlsearch     "高亮度搜尋
+set ignorecase
+set incsearch
 set ruler
 set visualbell
 set number
-""縮排選項轉空格
-set shiftwidth=4
+set shiftwidth=4 ""縮排選項轉空格
 set softtabstop=4
 set tabstop=4
 set laststatus=2
+set scrolloff=3
+set showmatch
+set smartcase
+set visualbell " what's this ?
+
 
 "
 " encoding
@@ -27,6 +33,7 @@ set <C-u>=^U
 set <C-b>=^B
 map <C-u> :set fileencoding=utf8
 map <C-b> :set fileencoding=big5
+
 
 " show file encoding
 if has("statusline")
@@ -39,6 +46,10 @@ let g:airline_powerline_fonts = 1
 set background=dark
 color mango
 highlight Search cterm=none ctermbg=blue
+
+hi IndentGuidesEven ctermbg=8
+hi IndentGuidesOdd ctermbg=236
+
 
 " font-size
 set guifont=Monaco:h20
