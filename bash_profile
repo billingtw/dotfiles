@@ -11,3 +11,7 @@ PATH=$PATH:$HOME/bin
 
 # for git status
 export PATH
+
+#test
+
+#test2
