@@ -45,6 +45,7 @@ endif
 let g:airline_powerline_fonts = 1
 set background=dark
 color mango
+"color ir_black
 highlight Search cterm=none ctermbg=blue
 
 hi IndentGuidesEven ctermbg=8

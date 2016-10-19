@@ -37,6 +37,9 @@ alias s="screen"
 alias smic="sudo env -i PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin /usr/bin/make install clean"
 alias ssh="ssh -4 -C -e none -v"
 alias t="telnet"
+alias goname="cd /var/named/chroot/var/named/master && ls"
+alias src='source ~/.bashrc'
+
 
 #
 # export
