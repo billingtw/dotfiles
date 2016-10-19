@@ -2,6 +2,8 @@
 #
 # makefile need [tab] to start a line
 #
+
+# source
 init:
 	ln -fs `pwd`/vimrc ~/.vimrc
 	ln -fs `pwd`/vim ~/.vim
@@ -9,5 +11,4 @@ init:
 	ln -fs `pwd`/bash_profile ~/.bash_profile
 	ln -fs `pwd`/cshrc ~/.cshrc
 	ln -fs `pwd`/gitconfig ~/.gitconfig
-    # source
     src
