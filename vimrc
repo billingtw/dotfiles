@@ -1,3 +1,29 @@
+" ======== Vundle ===========================================
+" "
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/vundle/
+call vundle#begin() " required
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+" = plugin setup =============================================
+Plugin 'scrooloose/nerdcommenter.git' " comment
+Plugin 'tpope/vim-surround'
+Plugin 'matchit.zip'
+Plugin 'kien/ctrlp.vim' "File fuzzy search
+Plugin 'Shougo/neocomplcache' "AutoComplete & snippets
+Plugin 'godlygeek/tabular.git' "alignment
+
+
+
+call vundle#end() " required
+filetype plugin indent on " required
+
+" = plugin setup =============================================
 
 
 syntax on
