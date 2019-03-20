@@ -11,4 +11,5 @@ init:
 	ln -fs `pwd`/bash_profile ~/.bash_profile
 	ln -fs `pwd`/cshrc ~/.cshrc
 	ln -fs `pwd`/gitconfig ~/.gitconfig
+	#ln -fs `pwd`/screenrc ~/.screenrc
     src
