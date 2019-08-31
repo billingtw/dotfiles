@@ -4,6 +4,8 @@
 sudo apt-get install git curl
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
+sudo apt-get install ssh
+
 # or use `pwd`. ex: ln -fs `pwd`/vim ~/.vim
 #
 # makefile need [tab] to start a line
